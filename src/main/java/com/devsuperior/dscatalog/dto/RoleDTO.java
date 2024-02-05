@@ -11,13 +11,11 @@ public class RoleDTO {
 	}
 
 	public RoleDTO(Long id, String authority) {
-		super();
 		this.id = id;
 		this.authority = authority;
 	}
 
 	public RoleDTO(Role role) {
-		super();
 		id = role.getId();
 		authority = role.getAuthority();
 	}
